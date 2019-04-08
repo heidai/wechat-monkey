@@ -1,0 +1,15 @@
+name: monkey
+version: 1
+
+libraries:
+- name: webpy
+  version: "0.36"
+
+- name: lxml
+  version: "2.3.4"
+
+#将定时任务改为被动刷新，减少云豆消耗
+#cron:
+#- url: /cron/accesstoken
+#  schedule: "@every 1h50m"
+#  description: "每1小时50分钟重新获取一次wechat access token"
