@@ -13,7 +13,7 @@ from tools import switch
 class TulingRobot(object):
     def __init__(self, OpenID):
         self.__url = 'http://openapi.tuling123.com/openapi/api/v2' # 图灵API url
-        self.__apiKey = 'a323758630ff4d6dacf72d90b316fc3c' # apiKey,机器人标识
+        self.__apiKey = '' # apiKey,机器人标识
         self.__userId = self.__GetUserId(OpenID) # userId,用户唯一标识
         #self.__province, self.__city = self.__GetLocation() # 获取地理位置
 

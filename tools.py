@@ -16,8 +16,8 @@ from sae.storage import Bucket
 class AccessToken(object): # 获取wechat access token
     def __init__(self):
         self.__url = 'https://api.weixin.qq.com/cgi-bin/token'
-        self.__appid = 'wxe90e64424dd91a9a' # 开发者ID(AppID)
-        self.__secret = '8049845218be2a5eb6c07e51846b988a' # 开发者密码(AppSecret)
+        self.__appid = '' # 开发者ID(AppID)
+        self.__secret = '' # 开发者密码(AppSecret)
         self.__memcached = pylibmc.Client()
         self.__accessToken = ''
         
@@ -52,8 +52,8 @@ class AccessToken(object): # 获取wechat access token
 class AccessToken(object): # 获取wechat access token
     def __init__(self):
         self.__url = 'https://api.weixin.qq.com/cgi-bin/token'
-        self.__appid = 'wxe90e64424dd91a9a' # 开发者ID(AppID)
-        self.__secret = '8049845218be2a5eb6c07e51846b988a' # 开发者密码(AppSecret)
+        self.__appid = '' # 开发者ID(AppID)
+        self.__secret = '' # 开发者密码(AppSecret)
         self.__memcached = pylibmc.Client()
         self.__now = datetime.datetime.now()
         

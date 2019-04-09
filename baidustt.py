@@ -23,13 +23,13 @@ class BaiduSTT(object):
         self.__client = AipSpeech(self.__AppID, self.__APIKey, self.__SecretKey)
 
     def __get_AppID(self): # 百度AppID
-        return '14998128'
+        return ''
     
     def __get_APIKey(self): # 百度APIKey
-        return 'maUfjhtuP3LBrfXmBsfyhtIF'
+        return ''
     
     def __get_SecretKey(self): # 百度SecretKey
-        return '6xhMVKhpI7rSzHu7koO8H6GVr0y17wK5'
+        return ''
 
     def STT(self, filePath): # 输入语音文件（amr格式），输出文字
         try:
